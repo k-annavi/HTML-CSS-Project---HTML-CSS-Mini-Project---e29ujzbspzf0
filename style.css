@@ -1,0 +1,90 @@
+body{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+.name{
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        color: rgb(0, 76, 255);
+        background-color: bisque;
+        font-family:cursive;
+        padding: 20px;
+        margin:auto;
+    }
+
+.navbar{
+    position:sticky;
+    top:0;
+    margin:1px;
+    border:1px solid blue;
+    font-size:20px;
+    background-color:yellow;
+    display:flex;
+    justify-content:space-between;
+}
+.navbar > div{
+    margin-right:10px;
+    font-weight:bold;
+    font-size:18px;
+    padding:10px;
+    overflow:hidden;
+}
+  .navbar > div:hover{
+    background-color:red;
+    color: white;
+    cursor:pointer;
+  }
+    .box{
+    display:flex; 
+    justify-content:space-around; 
+    flex-flow:row wrap; 
+    margin-top: 30px;
+} 
+.box>div{
+    border: 2px solid blue;
+}
+   
+  div>h4{
+    background-color:greenyellow;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(2, 4, 123);
+ }
+ div>button{
+    padding:10px;
+    background-color: green;
+    color: antiquewhite;
+    cursor: pointer;
+    
+}
+    div>button:hover{
+        padding:10px;
+        background-color:rgb(255, 1, 1);
+        color:white;
+        cursor: pointer;
+        border-radius: 10px;
+ }
+ .menu>div{
+    border:1px solid rgb(68, 65, 65);
+ }
+ div>img{
+    box-shadow: 3px 3px 3px solid black;
+ }
+ footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #222;
+  }
+
+  footer h3 {
+    font-size: 5rem;
+    margin-bottom: 0;
+      color:navy;
+      background-color: rgb(142, 196, 61);
+   }
+
